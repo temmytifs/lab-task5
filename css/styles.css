@@ -68,41 +68,56 @@ body {
 .container .section2{
     width: 100%;
     height: 290x;
-    
-}
-
-.container .section2 .box, .box2{
-    width: 90%;
-    height: 400x;
-    margin: 30px;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    display: flex;
-    border: #811414;
-    text-align: center;
-    align-content: center;
-}
-
-.container .section2 .box .boxes{
     border: solid red;
-    width: 15%;
-    height: 70px;
     
 }
-.container .section2 .box .boxes{
+
+.container .section2 table{
+    height: 200px;
+    width: 100%;
+    border-color: none;
+
+}
+.container .section2 tr{
     background-color: aqua;
-}
-.container .section2 .box2 .boxes{
-    border: #811414 solid;
-    width: 15%;
-    height: 70px;
-    margin: 15px;
-
-}
-.container .section2 .box2 .boxes .box6{
-    background-color: blue;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    padding: 0 50px;
+    border: 50px solid #eee;
 }
 
+body table .box1 .bo1{
+    background-color: rgb(9, 85, 81);
+}
+body table .box1 .bo2{
+    background-color: rgb(219, 207, 31);
+}
+body table .box1 .bo3{
+    background-color: rgb(93, 163, 230);
+}
+body table .box1 .bo4{
+background-color: rgb(219, 110, 70);
+}
+body table .box1 .bo5{
+    background-color: rgb(214, 41, 70);
+}
+body table .box2 .bo6{
+    background-color: green;
+}
+body table .box2 .bo7{
+    background-color: blueviolet;
+}
+body table .box2 .bo8{
+    background-color: rgb(226, 43, 134);
+}
+body table .box2 .bo9{
+    background-color: purple;
+}
+body table .box2 .bo10{
+    background-color: rgb(36, 64, 190);
+}
 .container .footer{
     display: flex;
     justify-content: center;
